@@ -22,6 +22,10 @@ namespace SimUDuck
             progeny.SetQuack(new QuackLikeMallard());
             Helper(progeny);
 
+            Console.WriteLine("SuperDuperDuck");
+            SuperDuperDuck superDuperDuck = new SuperDuperDuck();
+            Helper(superDuperDuck);
+
             Console.ReadLine();
         }
 
